@@ -1,5 +1,10 @@
-# Homepage menu rendered by the theme's home layout.
-# Each entry takes a title, an optional url, and optional nested entries.
 entries:
-  - title: github
+  - title: GitHub
     url: https://github.com/arnoldyiu
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/arnoldyiu/
+  # - title: My personal blog
+  #   post_list:
+  #     limit: 5
+  # # - title: Projects
+  # #   project_list: true

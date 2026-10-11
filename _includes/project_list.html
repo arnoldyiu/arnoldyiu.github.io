@@ -1,0 +1,14 @@
+{%-assign projects = site.projects | sort: "order"-%}
+
+{%- if projects.size > 0 -%}
+  <ul>
+    {%- for project in projects -%}
+      <li>
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        {%- if project.summary -%}
+          <span> &ndash; {{ project.summary }}</span>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

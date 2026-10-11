@@ -1,1 +1,1 @@
-Coming soon!
+Content coming soon!
