@@ -1,3 +1,5 @@
 remote_theme: no-style-please
 title: Arnold Yiu
 description: The personal website and portfolio of Arnold Yiu.
+plugins:
+  - jekyll-remote-theme
