@@ -1,0 +1,5 @@
+# Homepage menu rendered by the theme's home layout.
+# Each entry takes a title, an optional url, and optional nested entries.
+entries:
+  - title: github
+    url: https://github.com/arnoldyiu
