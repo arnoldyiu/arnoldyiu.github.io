@@ -1,0 +1,29 @@
+title: Arnold Yiu
+description: The personal website and portfolio of Arnold Yiu.
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Pinned to the 0.4.9 release commit. Later commits require the jektex plugin.
+remote_theme: riggraz/no-style-please@5a4c17e3a9c04a84804c9050f24abb528b0e8164
+
+theme_config:
+  appearance: "dark" # "light", "dark" or "auto"
+  back_home_text: ".."
+  date_format: "%Y-%m-%d"
+  show_description: false
+  lowercase_titles: false
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

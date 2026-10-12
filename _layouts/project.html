@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{%-include back_link.html-%}
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  {%-if page.summary-%}
+    <p>{{ page.summary }}</p>
+  {%-endif-%}
+
+  {%-if page.stack-%}
+    <p>{{ page.stack | join: ", " }}</p>
+  {%-endif-%}
+
+  {{ content }}
+</article>
