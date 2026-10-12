@@ -1,5 +1,5 @@
 title: Arnold Yiu
-description: The personal website and portfolio of Arnold Yiu.
+description: Computer science student at Waseda University researching multilingual LLM evaluation.
 collections:
   projects:
     output: true
@@ -9,7 +9,7 @@ collections:
 remote_theme: riggraz/no-style-please@5a4c17e3a9c04a84804c9050f24abb528b0e8164
 
 theme_config:
-  appearance: "dark" # "light", "dark" or "auto"
+  appearance: "light" # "light", "dark" or "auto"
   back_home_text: ".."
   date_format: "%Y-%m-%d"
   show_description: false
