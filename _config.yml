@@ -4,6 +4,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  media:
+    output: true
+    permalink: /media/:name/
 
 # Pinned to the 0.4.9 release commit. Later commits require the jektex plugin.
 remote_theme: riggraz/no-style-please@5a4c17e3a9c04a84804c9050f24abb528b0e8164
